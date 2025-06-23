@@ -1,8 +1,4 @@
 
-
-
-
-
 use universidad;
 create table materias
  (id int, nombre varchar(50));

@@ -10,7 +10,10 @@ services:
         MYSQL_PASSWORD: alumno1
         MYSQL_ROOT_PASSWORD: pass
       volumes:
-        - ./databases:/docker-entrypoint-initdb.d/
+        - ./databases:/docker-entrypoint-initdb.d
+        - ./querys:/root
+        - ./mariadb-data:/var/lib/mysql
+
       networks:
         - landb
 
