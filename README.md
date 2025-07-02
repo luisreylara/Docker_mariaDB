@@ -1,4 +1,11 @@
+
+
 # Docker composer qe levanta mariadb version 12.0.1-noble-rc
+
+# Nombre del contenedor:
+* > mariadb
+  
+# Datos de mariadb
 * >  DATABASE: universidad
 * >  USER: alumno
 * >  PASSWORD: alumno1
