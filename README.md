@@ -14,7 +14,7 @@
 ## Carpetas creadas
 * > databases : creada para incluir los **sql** que se cargarán cuando no exista la carpeta **mariadb-data**
 * > querys : carpeta que guarda los **sql** en la carpeta de **/root/** para su ejecución con el comando **source**
-* > mariadb-data: carpeta que mantiene el respaldo y la persistencia de la base de datos 
+* > mariadb-data: carpeta que mantiene el respaldo y la persistencia de la base de datos, no es obligatorio que exista cuando la primera vez se cea el contenedor. Posteriormente se crea automáticamente.
   
 ## Este contenedor se crea con linux:
 ```
