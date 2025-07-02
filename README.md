@@ -2,25 +2,25 @@
 
 # Docker composer que levanta mariadb version 12.0.1-noble-rc
 
-# Nombre del contenedor:
+## Nombre del contenedor:
 * > mariadb
   
-# Datos de mariadb
+## Datos de mariadb
 * >  DATABASE: universidad
 * >  USER: alumno
 * >  PASSWORD: alumno1
 * >  ROOT_PASSWORD: pass
 
-# Carpetas creadas
+## Carpetas creadas
 * > databases : creada para incluir los **sql** que se cargarán cuando no exista la carpeta **mariadb-data**
 * > querys : carpeta que guarda los **sql** en la carpeta de **/root/** para su ejecución con el comando **source**
 * > mariadb-data: carpeta que mantiene el respaldo y la persistencia de la base de datos 
   
-# Este contenedor se crea con linux:
+## Este contenedor se crea con linux:
 ```
 cat /etc/os-release
 ```
-# -
+## -
 ```
 PRETTY_NAME="Ubuntu 24.04.2 LTS"
 NAME="Ubuntu"
