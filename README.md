@@ -1,6 +1,6 @@
 
 
-# Docker composer qe levanta mariadb version 12.0.1-noble-rc
+# Docker composer que levanta mariadb version 12.0.1-noble-rc
 
 # Nombre del contenedor:
 * > mariadb
